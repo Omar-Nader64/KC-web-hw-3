@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mora</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+
+<body>
+    <body>
+        <header>
+          <div class="div">
+            <img class="logo" src="./images/shopping.png" alt="logo" />
+            <h2>Mora</h2>
+          </div>
+          <nav>
+            <ul class="nav_links">
+              <li><a href="./index2.html">Products</a></li>
+              <li><a href="./index.html"> About Us</a></li>
+              <li><a href="./index.html">Contact us</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div><input type="text" placeholder="Search" id="search"></div>
+
+    <div id="container">
+                <div class="card" id="item1">
+            <img src="./images/apple-macbook-m1-pro-2021-2_1_4.jpg" alt="" class="img">
+            <div class="title">Apple MacBook Pro M1 Max (2021), 32GB RAM, 1TB SSD,<br> 16-inch  Laptop - Space Gray</div>
+            <div>1,223 KD</div>
+            <button class="cart_button" onclick="addToCart(item1)">Add To Cart</button>
+        </div>
+
+        
+        <div class="card" id="item2">
+            <img src="./images/image_template_500x500_px_-_2021-06-14t140349.121.jpg" alt="" class="img">
+            <div>Asus ROG Strix SCAR 17 (2021), AMD Ryzen 9, Nvidia <br> Geforce RTX 3070 8GB, Ram 32GB, SSD 1TB, 17.3" 300Hz <br> Gaming Laptop - Black (G733QR-HG058T)</div>
+            <div>853 KD</div>
+            <button class="cart_button" onclick="addToCart(item2)">Add To Cart</button>
+        </div>
+
+        <div class="card" id="item3">
+            <img src="./images/lenovo_flex_5_convertible_laptop_graphite_grey_1__1_1.jpg" alt="" class="img">
+            <div>Lenovo Flex 5 Intel Core i7 11th Gen, 16GB RAM <br> 512GB SSD 14-inch FHD Convertible Laptop - Graphite Grey</div>
+            <div>349 KD</div>
+            <button class="cart_button" onclick="addToCart(item3)">Add To Cart</button>
+        </div>
+    </div>    
+
+    <h1>Cart</h1>
+    <div id="title">
+
+    </div>
+     <hr style="width: 65%; height: 2px; background-color: rgb(151, 201, 205); text-align:center;">
+    <script src="./script.js"></script>
+</body>
+
+
+</html>

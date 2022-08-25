@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    box-shadow: 0px .2px 25px rgb(92, 84, 1);
+    padding: 10px 6%;
+    position: -webkit-sticky;
+    position: sticky;
+    border-radius: 0 0 10px 10px;
+    top: 0;
+    z-index: 2;
+    background-color: #e71d36;
+}
+
+li, a{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    list-style-type:none;
+    color: #fffdf7;
+}
+
+
+.logo{
+    width: 60px;
+    height: 55px;
+    cursor: pointer;
+}
+ 
+.div{
+    display: flex;
+    margin-right: auto;
+}
+
+h2{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type:none;
+    color: #fffdf7;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nav_links li{
+ display: inline-block;
+ padding: 0px 40px;
+}
+
+.nav_links li a {
+    transition:all 0.3 ease 0s ;
+}
+
+.nav_links li a:hover {
+    color: #a7a7a7 ;
+}
+
+#m1 {
+    width: 670px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left:auto ;
+    margin-right: auto;
+    background-color:#ddd848 ;
+    border-radius: 40px;
+}
+
+.AU {
+    text-align: center;
+    padding-top: 50px;
+    color: #fffdf7;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+.t1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3851be; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.t2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3851be;
+    margin-left: 200px;
+    width: 150px;
+    font-size: 30px;
+    margin-top: 140px;
+}
+
+.CUC {
+ display: flex;
+ margin-top: 200px;
+}
+
+.i2 {
+    padding-bottom: 250px;
+}
+
+.inputs{
+    
+    margin-left: auto;
+    margin-right: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
